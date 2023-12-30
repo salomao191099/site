@@ -20,7 +20,7 @@ No script.js modifique a linha **var url = "https://database1.salomaobraga.repl.
 <br/>
 # Integrando com o Esp8266
 **Passo 1:** <br/> 
-Copie o codigo no seguinte repositório: <br/>
+Copie o codigo no seguinte repositório: https://github.com/salomao191099/esp8266BuscaServidor.git <br/>
 <br/>
 **Passo 2:** <br/> 
 Após isso compile diretamente no esp8266<br/> 
