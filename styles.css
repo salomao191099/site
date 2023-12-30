@@ -1,0 +1,82 @@
+body {
+    background-color: #aee1e1; /* Fundo azul claro */
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+#container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+#form-container {
+    background-color: #f0f0f0; /* Retângulo cinza claro */
+    border: 2px solid #555; /* Borda cinza escuro */
+    padding: 20px;
+    width: 60%;
+}
+
+#control-section,
+#info-section {
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+h1 {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+#info-section p {
+    margin: 5px 0;
+}
+
+/* Adicionando um estilo para as opções de comando */
+.comando-option {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+/* Estilo para os botões de seleção */
+.comando-option label {
+    margin-left: 10px;
+}
+
+/* Estilo para as caixas de texto */
+.comando-value1 input {
+    padding: 5px;
+    width: 100px; /* Ajuste conforme necessário */
+    margin-left: 10px;
+}
+.comando-value2 input {
+    padding: 5px;
+    width: 100px; /* Ajuste conforme necessário */
+    margin-left: 10px;
+}
+.comando-value3 input {
+    padding: 5px;
+    width: 100px; /* Ajuste conforme necessário */
+    margin-left: 10px;
+}
+
+/* Estilo para centralizar o botão */
+#comando-section button {
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+

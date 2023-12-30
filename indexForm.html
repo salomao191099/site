@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>SISTEMA MICROFÍLICO</title>
+</head>
+<body>
+    <div id="container">
+        <div id="form-container">
+            <h1>SISTEMA MICROFÍLICO</h1>
+            <div id="control-section">
+                <h2>CONTROLE</h2>
+                <ul>
+                    <li>TIPO DE SERINGA
+                        <select id="tipoSeringaSelect" onchange="updateInfo()">
+                            <option value="20ml">20ml</option>
+                            <option value="10ml">10ml</option>
+                            <option value="5ml">5ml</option>
+                            <option value="3ml">3ml</option>
+                            <option value="1ml">1ml</option>
+                        </select>
+                    </li>
+                </ul>
+                <div id="comando-section">
+                    <h2>COMANDO</h2>
+                    <div class="comando-option">
+                        <label>
+                            ml&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                            <input type="radio" name="comando" value="ml" checked>
+                        </label>
+                        <div class="comando-value1">
+                            <input type="text" id="mlInput" placeholder="Valor em ml">
+                        </div>
+                    </div>
+                    <div class="comando-option">
+                        <label>
+                            ml/min
+                            <input type="radio" name="comando" value="ml/min">
+                        </label>
+                        <div class="comando-value2">
+                            <input type="text" id="mlMinInput" placeholder="Valor em ml/min">
+                        </div>
+                    </div>
+                    <div class="comando-option">
+                        <label>
+                            rpm&nbsp&nbsp&nbsp&nbsp
+                            <input type="radio" name="comando" value="rpm">
+                        </label>
+                        <div class="comando-value3">
+                            <input type="text" id="rpmInput" placeholder="Valor em rpm">
+                        </div>
+                    </div>
+                </div>
+                <button onclick="iniciarTeste()">Iniciar Teste</button>
+            </div>
+            <div id="info-section">
+                <h2>INFORMAÇÕES</h2>
+                <p id="tipoSeringaInfo">TIPO DE SERINGA - 20ml</p>
+                <p>TEMP. DE DURAÇÃO DO TESTE - 1.0min</p>
+                <p>RPM - 29rpm</p>
+                <p>VAZÃO(ml/min) - 20ml/min</p>
+                <p>VAZÃO (ul/min) - 20000 ul/min</p>
+                <p>DESLOCAMENTO DO ÊMBOLO - 64mm</p>
+                <p>FREQUÊNCIA DE OPERAÇÃO - 1545Hz</p>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </div>
+</body>
+</html>
