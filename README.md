@@ -17,4 +17,10 @@ Cole no projeto que foi criado em python<br/>
 <br/> 
 **Passo 4:** <br/> 
 No script.js modifique a linha **var url = "https://database1.salomaobraga.repl.co/receber-dados";** para o endereço do seu banco de dados<br/>
-
+<br/>
+# Integrando com o Esp8266
+**Passo 1:** <br/> 
+Copie o codigo no seguinte repositório: <br/>
+<br/>
+**Passo 2:** <br/> 
+Após isso compile diretamente no esp8266<br/> 
