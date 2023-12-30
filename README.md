@@ -6,7 +6,7 @@ Senha: cct<br/>
 
 # Integrando com o Banco de Dados
 **Passo 1:** <br/> 
-Faça uma conta no replit: https://replit.com/~ <br/>
+Faça uma conta no replit: https://replit.com/ <br/>
 <br/>
 **Passo 2:** <br/> 
 Crie um projeto em python no replit<br/> 
