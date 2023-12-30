@@ -5,9 +5,9 @@ function validateLogin() {
 
     // Lista de usuários válidos
     var validUsers = {
-        'salomao': 'tcc',
-        'ingrid': 'tcc',
-        'admin': 'tcc'
+        'salomao': 'cct',
+        'ingrid': 'cct',
+        'admin': 'cct'
     };
 
     // Verifica se o usuário e a senha correspondem a um usuário válido
