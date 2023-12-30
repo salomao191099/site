@@ -6,14 +6,14 @@ Senha: cct<br/>
 
 # Integrando com o Banco de Dados
 **Passo 1:** <br/> 
-Faça uma conta no replit: replit.com<br/>
+Faça uma conta no replit: replit.com <br/>
 <br/>
 **Passo 2:** <br/> 
 Crie um projeto em python no replit<br/> 
 <br/> 
 **Passo 3:** <br/> 
 Copie o código disponível no seguinte link: https://github.com/salomao191099/dataBasePython.git<br/> 
-Cole no projeto que foi criado em python
+Cole no projeto que foi criado em python<br/> 
 <br/> 
 **Passo 4:** <br/> 
 No script.js modifique a linha **var url = "https://database1.salomaobraga.repl.co/receber-dados";** para o endereço do seu banco de dados<br/>
